@@ -1,5 +1,5 @@
 FROM iamdevopstrainer/tomcat:base
-COPY /var/lib/jenkins/workspace/Project/ABC-Technologies/ABCtechnologies-1.0.war /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/Project/ABC-Technologies/ABCtechnologies-1.0.war /usr/local/
 CMD ["catalina.sh", "run"]
 
 
